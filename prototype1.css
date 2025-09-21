@@ -1,0 +1,77 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+  overflow: hidden;
+}
+
+h2 {
+  color: #2c3e50;
+}
+
+.hidden {
+  display: none;
+}
+
+input, button {
+  margin: 6px;
+  padding: 6px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+.marks-input {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.marks-input label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.charts-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+canvas {
+  width: 250px !important;
+  height: 250px !important;
+}
+
+#gradeAnalysis {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #2c3e50;
+}
